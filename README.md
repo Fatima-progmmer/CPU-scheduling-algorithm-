@@ -1,6 +1,6 @@
 # CPU-scheduling-algorithm-
 
-##First-Come-First-Served (FCFS)
+## First-Come-First-Served (FCFS)
 
 1. Initialize an empty queue.
 2. Add arriving processes to the end of the queue.
@@ -9,7 +9,7 @@
    b. Execute the process until completion.
 5. Repeat step 3 until all processes are completed.
 
-##Shortest Job First (SJF)
+## Shortest Job First (SJF)
 
 1. Initialize an empty queue.
 2. Add arriving processes to the queue with their burst times.
@@ -19,7 +19,7 @@
    c. Execute the process until completion.
 5. Repeat step 3 until all processes are completed.
 
-##Round Robin (RR)
+## Round Robin (RR)
 
 1. Initialize an empty queue.
 2. Assign a time quantum (time slice) to each process.
@@ -31,7 +31,7 @@
    d. Otherwise, add the process to the end of the queue.
 6. Repeat step 4 until all processes are completed.
 
-##Priority Scheduling (PS)
+## Priority Scheduling (PS)
 
 1. Initialize an empty queue.
 2. Assign a priority to each process.
